@@ -1,0 +1,152 @@
+.header{
+overflow: hidden;
+  background-color: blue;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.header img{
+    height: 50px;
+    width: 50px;
+}
+
+.headerbuttons{
+    float: right;
+    padding-top: 15px;
+}
+
+.headerbuttons a{
+    color: white;
+    margin-left: 25px;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.info{
+    background-color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-bottom: 15px;
+    padding-top: 25px;
+}
+
+.info img{
+    width: 95%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.info h2{
+    text-align: center;
+    color: #5A5A5A;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.info p{
+    text-align: center;
+    color: #5A5A5A;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.boxrow{
+    background-color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-bottom: 15px;
+    padding-top: 25px;
+}
+
+.boxrow table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box{
+    background-color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 250px;
+    height: auto;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.box img{
+    width: 100%;
+}
+
+.box h3{
+    text-align: center;
+    color: #5A5A5A;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.box p{
+    text-align: center;
+    color: #5A5A5A;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contactinfo{
+    background-color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-bottom: 15px;
+    padding-top: 25px;
+    padding-bottom: 60px;
+}
+
+.contactinfo img{
+    margin-left: 25px;
+    width: 75%
+}
+
+.contacttext{
+    float: right;
+    text-align: right;
+    padding-top: 50px;
+    margin-right: 25px;
+    color: #5A5A5A;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.gradesolverbox{
+    background-color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-bottom: 15px;
+    padding-top: 25px;
+}
+
+.gradesolverbox p{
+    color: #5A5A5A;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.gradesolverbox table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gradesolverbox button{
+    margin-top: 10px;
+    margin-left: 49%;
+}
+
+.instructions{
+    text-align: center;
+    color: #5A5A5A;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-image: url('assets/logobg.webp');
+}

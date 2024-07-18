@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <title>ISCP - Grade Solver</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="header">
+            <img src="assets/logo.png">
+            <div class="headerbuttons">
+                <a href="index.html">Home</a>
+                <a href="contactus.html">Contact</a>
+                <a href="gradesolver.html">Grades</a>
+            </div>
+        </div>
+
+        <div class="gradesolverbox">
+            <p class="instructions">Please input your grades.</p>
+            <table>
+                <tr>
+                    <td>
+                        <p>First Quarter</p>
+                    </td>
+                    <td>
+                        <input type="text" id="fq" size="2" value="">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Second Quarter</p>
+                    </td>
+                    <td>
+                        <input type="text" id="sq" size="2" value="">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Third Quarter</p>
+                    </td>
+                    <td>
+                        <input type="text" id="tq" size="2" value="">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Fourth Quarter</p>
+                    </td>
+                    <td>
+                        <input type="text" id="foq" size="2" value="">
+                    </td>
+                </tr>
+            </table>
+            <button onclick="gradesSolver()">Solve Grades</button>
+            <div id="outputGrade"></div>
+        </div>
+
+        <script>
+            function gradesSolver(){
+                var fqgrade = parseFloat(document.getElementById('fq').value*0.25);
+                var sqgrade = parseFloat(document.getElementById('sq').value*0.25);
+                var tqgrade = parseFloat(document.getElementById('tq').value*0.25);
+                var foqgrade = parseFloat(document.getElementById('foq').value*0.25);
+                var averageGrade = fqgrade+sqgrade+tqgrade+foqgrade;
+
+                var outputDisplay = document.getElementById('outputGrade');
+
+                outputDisplay.innerHTML = "<p style='font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; text-align:center;'>Final Average Grade: " + averageGrade + ".</p>";
+            }
+        </script>
+    </body>
+</html>
